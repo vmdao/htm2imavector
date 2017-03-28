@@ -1,3 +1,11 @@
 node_modules
 example
-.npmignore
+.git
+.gitignore
+.tmp
+.DS_STORE
+.tmp
+*.swo
+*.swp
+*.swn
+*.swm
