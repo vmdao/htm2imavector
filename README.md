@@ -1,14 +1,19 @@
 # html2imavertor -  HTML to Image[PDF, PNG, JPEG]
+
 Base on wkhtmltopdf and Mupdf.
-Use wkhtmltopdf: convert html to pdf or image
-Use mupdf: convert pdf to image(hiquality)
+
+Use wkhtmltopdf: convert html to pdf or image.
+Use mupdf: convert pdf to image(hiquality).
 
 ## Install
+
 ### Install Node Backend
     npm install --save html2imavertor
+
 ### Install Library Backend
-1. Install lib wkhtmltopdf(https://wkhtmltopdf.org)
-2. Install lib Mupdf(https://wkhtmltopdf.org)
+1. Install lib wkhtmltopdf 13.02(https://wkhtmltopdf.org) 
+2. Install lib Mupdf 9.7b(https://wkhtmltopdf.org)
+
 ## Usage
 ```
 var Convert = require('htmltoimavetor');
@@ -16,6 +21,7 @@ var html2image = Convert.html2image;
 var html2pdf = Convert.html2image; 
 var pdf2image = Convert.html2image;
 ```
+
 ### html2image(source, [options], [callback]);
 ```
 // URL
@@ -37,6 +43,7 @@ html2image('http://google.com/', { pageSize: 'letter' }, function (error, stream
  // make it
 });
 ```
+
 ### html2pdf(source, [options], [callback]);
 ```
 // URL

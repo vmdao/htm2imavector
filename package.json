@@ -1,6 +1,6 @@
 {
   "name": "html2imavertor",
-  "version": "0.0.7",
+  "version": "0.0.9",
   "description": "A wrapper for the wkhtmltopdf HTML to PDF converter using WebKit",
   "author": {
     "name": "vmdao",

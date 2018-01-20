@@ -197,6 +197,6 @@ function wkhtmltopdf(input, options, callback) {
   return stream;
 }
 
-wkhtmltopdf.command = 'wkhtmltopdf';
+wkhtmltopdf.command = 'xvfb-run -- /usr/local/bin/wkhtmltopdf';
 wkhtmltopdf.shell = '/bin/bash';
 module.exports = wkhtmltopdf;
