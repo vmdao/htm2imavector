@@ -196,6 +196,6 @@ function wkhtmltoimage(input, options, callback) {
   // return stdout stream so we can pipe
   return stream;
 }
-wkhtmltopdf.command = 'xvfb-run -- /usr/local/bin/wkhtmltoimage';
+wkhtmltoimage.command = 'xvfb-run -- /usr/local/bin/wkhtmltoimage';
 wkhtmltoimage.shell = '/bin/bash';
 module.exports = wkhtmltoimage;

@@ -1,4 +1,4 @@
-var wkhtmltoimage = require('./libs/wkhtmlimage');
+var wkhtmltoimage = require('./libs/wkhtmltoimage');
 var wkhtmltopdf = require('./libs/wkhtmltopdf');
 var mupdf = require('./libs/mupdf');
 

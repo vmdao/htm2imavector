@@ -11,12 +11,14 @@ Use mupdf: convert pdf to image(hiquality).
     npm install --save html2imavertor
 
 ### Install Library Backend
+
 1. Install lib wkhtmltopdf 13.02(https://wkhtmltopdf.org) 
 2. Install lib Mupdf 9.7b(https://wkhtmltopdf.org)
 
 ## Usage
 ```
 var Convert = require('htmltoimavetor');
+
 var html2image = Convert.html2image; 
 var html2pdf = Convert.html2image; 
 var pdf2image = Convert.html2image;
